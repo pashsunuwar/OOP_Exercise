@@ -18,7 +18,7 @@ public class Garage {
 		if (garage.size() != 0) {
 			for (Vehicle vh : garage) {
 				System.out.println(vh);			
-			}else {
+			}}else {
 				System.out.println("No vehicles in garage");
 			}
 		}
@@ -28,4 +28,4 @@ public class Garage {
 	// if vehicles != 0, for loop vehicles vh : vehicles
 	
 	
-}
+

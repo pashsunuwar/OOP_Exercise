@@ -8,6 +8,12 @@ public class Car extends Vehicle {
 	}
 
 	final int MAX_SEAT = 5;
+
+	@Override
+	public String toString() {
+		return "Car [id=" + id + ", bill=" + bill + ", brand=" + brand + ", name=" + name + ", year=" + year
+				+ ", topspeed=" + topspeed + ", enginesize=" + enginesize + "]";
+	}
 	
 
 }

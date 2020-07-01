@@ -8,6 +8,12 @@ public class Bus extends Vehicle{
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public String toString() {
+		return "Bus [id=" + id + ", bill=" + bill + ", brand=" + brand + ", name=" + name + ", year=" + year
+				+ ", topspeed=" + topspeed + ", enginesize=" + enginesize + "]";
+	}
+
 	final int MAX_SEAT = 50;
 	
 
