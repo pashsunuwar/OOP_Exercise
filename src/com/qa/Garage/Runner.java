@@ -22,9 +22,9 @@ public class Runner {
 		
 		Garage g = new Garage();
 		
-		g.addVehicle(new Car(1, 300, "BMW", "d", 34, 34, 33));
-		g.addVehicle(new Bus(0, 0, null, null, 0, 0, 0));
-		g.addVehicle(new Car(0, 0, null, null, 0, 0, 0));
+		g.addVehicle(new Car(001, 300, " BMW ", " M4 ", 2020, 140, 3.3));
+		g.addVehicle(new Bus(002, 500, " Volvo ", " Tank ", 2009, 70, 4));
+		g.addVehicle(new Car(003, 180, " Ford ", " g ", 2000, 90, 3));
 		
 		g.showVehiclesInGarage();
 	}
