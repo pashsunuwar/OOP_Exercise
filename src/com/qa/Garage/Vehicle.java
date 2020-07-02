@@ -30,7 +30,10 @@ public class Vehicle {
 		this.topspeed = topspeed;
 		this.enginesize = enginesize;
 	}
-
+	
+	public Vehicle() {
+		
+	}
 	
 	// Getters and setters
 	
@@ -88,6 +91,12 @@ public class Vehicle {
 
 	public void setEnginesize(double enginesize) {
 		this.enginesize = enginesize;
+	}
+
+	@Override
+	public String toString() {
+		return "Vehicle [id=" + id + ", bill=" + bill + ", brand=" + brand + ", name=" + name + ", year=" + year
+				+ ", topspeed=" + topspeed + ", enginesize=" + enginesize + "]";
 	}
 	
 	

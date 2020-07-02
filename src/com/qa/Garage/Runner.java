@@ -27,6 +27,14 @@ public class Runner {
 		g.addVehicle(new Car(003, 180, " Ford ", " g ", 2000, 90, 3));
 		
 		g.showVehiclesInGarage();
+		
+		System.out.println("--------------------------------------------");
+		
+		g.emptyGarage();
+		
+		g.showVehiclesInGarage();
+		
+		System.out.println("--------------------------------------------");
 	}
 
 }

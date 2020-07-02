@@ -13,7 +13,6 @@ public class Garage {
 		garage.remove(vh);	
 	}
 	
-	
 	public void showVehiclesInGarage() {
 		if (garage.size() != 0) {
 			for (Vehicle vh : garage) {
@@ -22,8 +21,25 @@ public class Garage {
 				System.out.println("No vehicles in garage");
 			}
 		}
+	
+	// remove vehicle by its inputing its id
+	public void removeVehicle(int id) {
+		for (Vehicle vh : garage) {
+			if (vh.getId() == id) {
+				garage.remove(id);
+			} break;
+		}
+	}
+	
+	public void emptyGarage() {
+		garage.clear();
+	}
+	
+	
+	//Calculating bill
+	public void calculatingBill() {
 		
-		
+	}
 	}
 	// if vehicles != 0, for loop vehicles vh : vehicles
 	
